@@ -4945,6 +4945,14 @@ input[type="range"]::-moz-range-thumb::before {
 }
 
 /* Responsive CSS Media Queries */
+
+/* Solves resposive issue with Iphone X horizontal view */
+@media only screen and (max-width: 768px){
+    .benefits-section-wrapper{
+        height: 825px;
+    }
+}
+
 @media only screen and (max-width: 768px){
     .benefits-section-wrapper{
         height: 100%;
