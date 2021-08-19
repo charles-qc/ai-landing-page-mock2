@@ -4838,7 +4838,7 @@ input[type="range"]::-moz-range-thumb::before {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    height: 65vh;
+    height: 650px;
     background-color: #ea2025;
 }
 
@@ -4945,12 +4945,6 @@ input[type="range"]::-moz-range-thumb::before {
 }
 
 /* Responsive CSS Media Queries */
-@media only screen and (max-width: 1440px){
-    .benefits-section-wrapper{
-        height: 825px;
-    }
-}
-
 @media only screen and (max-width: 768px){
     .benefits-section-wrapper{
         height: 100%;
