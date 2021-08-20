@@ -3123,6 +3123,10 @@ input[type="range"]::-moz-range-thumb::before {
     .rebate-modal-minimized-container-2 {
         bottom: 150px;
     }
+    /* Benefits Section Height Media Query */
+    .benefits-section-wrapper{
+        height: 725px;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
@@ -4945,12 +4949,6 @@ input[type="range"]::-moz-range-thumb::before {
 }
 
 /* Responsive CSS Media Queries */
-@media only screen and (max-width: 1024px){
-    .benefits-section-wrapper{
-        height: 725px;
-    }
-}
-
 /* Solves responsive issue with Iphone X horizontal view */
 @media only screen and (max-width: 812px){
     .benefits-section-wrapper{
